@@ -2,7 +2,7 @@
 using AssemblyAI.Lemur;
 using AssemblyAI.Transcripts;
 
-const string apiKey = "<YOUR_API_KEY>"; // Replace with your actual API key
+const string apiKey = "API_KEY"; // Replace with your actual API key
 const string filePath = "FILE_PATH"; // Replace with the path to your audio file
 
 var client = new AssemblyAIClient(apiKey);
